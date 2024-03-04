@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konvertor temperature</title>
+</head>
+<body>
+    <p>Temperatura: <input type="number" id="t"/></p>
+    <p>Jedinica:
+        <input type="radio" name="jedinica" value="c" checked/> Celzijus
+        <input type="radio" name="jedinica" value="f" checked/> Farenhajt
+        <input type="radio" name="jedinica" value="k" checked/> Kelvin
+    </p>
+    <p><button id="konvertuj">Konvertuj</button></p>
+    <p>Rezultat konverzije<br/>
+    <textarea id="rezultat" rows="5" cols="30"></textarea>
+</p>
+
+<script src="./primer4.js"></script>
+</body>
+</html>
